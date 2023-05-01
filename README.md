@@ -1,5 +1,6 @@
 # Films-for-You
 A movie recommendation system that uses collaborative filtering to offer movie recommendations by comparing a user’s behavior to others in the system.
+
 Films for you has two configurations. The first configuration allows users to receive movie recommendations.  To begin, the user selects three movies they’ve watched and liked in the past from a list of fifty most popular movies. The system will then compare their movie history with that of existing users and check for similarity. In the context of our system, the notion of a ‘similar user’ is someone who has written reviews on the same movies selected by the user. The more movies that users have in common, the more similar they are. The current user will also be able to specify their preferred movie genre, which allows the system to further narrow down the options. At the end of the interaction, the system will provide a ranking of the top three films it recommends to the user. 
 
 The second configuration allows users to add their own movie review. The system starts by assigning the user a distinct id and prompting them to enter the name of the movie they wish to review. Then, it will ask the user to rate the movie out of 10.0. 
